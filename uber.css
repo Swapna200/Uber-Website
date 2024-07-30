@@ -1,0 +1,321 @@
+.head ul {
+    list-style-type: none;
+    margin-top: -150px;
+    margin-left: 0%;
+    overflow: hidden;
+    background-color: rgb(255,255,255);
+    position: fixed;
+    width: 100%;
+    height: 7%;
+    padding-top: 15px;
+    padding-left: 8%;
+    background-repeat: no-repeat;
+    z-index: 4;
+}
+
+.head li {
+    float: left;
+}
+
+
+.head li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 4px 3px 0px 10px;
+    text-decoration: none;
+    font-size:20px;
+    cursor: pointer;
+    margin-left: 23px;
+    margin-top:1px;
+    overflow: hidden;
+    
+}
+
+.head li a:hover {
+    color:rgb(62, 180, 53);
+    border-top:7px solid green;
+   
+}
+.head li b{
+font-size:30px;
+float:left;
+padding:0px;
+	
+}
+.main{
+    width: 100%;
+    height: 590px;
+    margin-top: 150px;
+}
+.i{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    
+}
+.i img{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+   
+}
+.i .f{
+    height: 770px;
+    position: absolute;
+    max-width: 380px;
+    background-color:rgb(238,238,238);
+    margin-top: -730px;
+    margin-left: 65%;
+    border-top:10px solid rgb(227,227,230);
+    z-index: 3;
+    overflow: scroll;
+}
+.i .f h2 a{
+    text-decoration: none;
+    text-align: center;
+    color:rgb(116, 131, 129);
+    display: block;
+    background: whitesmoke;
+    padding: 20px;
+    margin-top:-19;
+}
+
+.i .f input{
+    height: 40px;
+    width: 300px;
+    margin-left: 38px;
+    margin-top: 10px;
+    border-radius: 7px;
+    background-color: white;
+    padding: 5px;
+    font-size: 1em;
+    border: none;    
+}
+.i .f button{
+    width: 100px;
+    height:40px;
+    margin-left: 25px;
+    margin-top: 8px;
+    background: green;
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+.i .f button:hover{
+    background-color: aqua;
+}
+h1{
+    margin-left: 200px;
+    margin-top: 100px;
+    color:black;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 30px;
+     }
+h3{
+    margin-left: 200px;
+    font-family: monospace;
+    font-size: 36px;
+    padding-top:-100px;
+}
+.i2 {
+    max-width: 100%;
+    height:500px;
+    margin-top: 280px;
+    margin-left: 110px;
+}
+.i2 img3{
+    position: relative;
+    margin-left: 100px;
+    margin-right: 200px;
+    padding-left: 300px;
+    
+}
+div.ic{
+    position: relative;
+    width: 100%;
+}
+div.ici{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    margin-top:-161px;
+    margin-left: 210px;
+}
+div.ici button{
+    background-color: darkgreen;
+    width: 230px;
+    height: 42px;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: inherit;
+    cursor:pointer;
+   border-bottom-color: aqua;
+  transition: 0.4s;
+}
+div.ici button:hover{
+     padding-right: 25px;
+}
+div.rtr{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    margin-top:-601px;
+    margin-left: 210px;
+}
+div.ici2 button{
+    background-color: darkgreen;
+    width: 230px;
+    height: 42px;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: inherit;
+    cursor:pointer;
+   border-bottom-color: aqua;
+  transition: 0.4s;
+}
+div.ici2 button:hover{
+     padding-right: 25px;
+}
+div.rtd{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    margin-top:933px;
+    margin-left: 217px;
+}
+div.ici3 button{
+    background-color: darkgreen;
+    width: 230px;
+    height: 42px;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: inherit;
+    cursor:pointer;
+   border-bottom-color: aqua;
+  transition: 0.4s;
+}
+div.ici3 button:hover{
+     padding-right: 25px;
+}
+div.price {
+   position: relative;
+    width: 100%;
+    height: 450px;
+    padding-top:160px;    
+}
+div.mapi {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 735px;
+    height: 466px;
+    margin-right:100px;
+    
+}
+.price label{
+
+margin-left: 100px;
+
+font-family: monospace;
+font-size: 30px;
+}
+.price input{
+    margin-left:  100px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    width: 347px;
+}
+.price button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.price button:hover {
+    background-color: #218838;
+}
+
+.price #fareResult {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.driver{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    padding-top:10px;
+    margin-top:100px;
+}
+div.at{
+     position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+    height: 466px;
+    margin-right:0px;
+    padding-left: 80px;
+}
+.driver label{
+    font-size: 30px;
+    font-family: monospace;
+    margin-left: 100px;
+}
+ .wnew{
+    width: 700px;
+    margin-left: 120px;
+     margin-top: 150px;
+    
+}
+div.city{
+    width:500px;
+    height: 300px;
+    font-size: 35px;
+    padding-top: 70px;
+    padding-left: 200px;
+    font-family: monospace;
+}
+div.city input{
+    width: 190px;
+    height: 30px;
+}
+div.city button{
+    background-color: darkgreen;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+div.bo{
+width: 100%; 
+}
+div.lastlist{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    margin-top: -17px;
+}
+div.lastlist li{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 40px;
+    padding-left: 80px;
+}
+.f p{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:monospace;
+    font-size: 12px;
+}
